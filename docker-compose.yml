@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+    main:
+        build: "."
+        container_name: "puppeteer_test"
+        volumes:
+         - "./app/script:/usr/src/app/script"
